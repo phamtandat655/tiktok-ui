@@ -3,6 +3,8 @@
 
 :root {
     --primary: #fe2c55;
+    --black: #000;
+    --text-color: #333;
 
     // Default layout
     --default-layout-header-height: 60px;
@@ -25,4 +27,16 @@ body {
     line-height: 1.5;
     // hiển thị font nhanh hơn
     text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    text-decoration: none;
+    color: var(--text-color);
 }
